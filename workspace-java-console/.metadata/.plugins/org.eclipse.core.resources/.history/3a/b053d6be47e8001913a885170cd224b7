@@ -1,0 +1,15 @@
+package com.laptrinhjavaweb.api;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+import com.laptrinhjavaweb.service.ICustomerService;
+import com.laptrinhjavaweb.service.impl.CustomerService;
+
+@WebServlet(urlPatterns = { "/api-customer" })
+public class CustomerAPI extends HttpServlet {
+
+	private static final long serialVersionUID = 6117447583327902371L;
+
+	private ICustomerService customerService = new CustomerService(); 
+}

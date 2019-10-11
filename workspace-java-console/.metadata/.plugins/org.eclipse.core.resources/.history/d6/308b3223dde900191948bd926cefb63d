@@ -1,0 +1,19 @@
+package com.laptrinhjavaweb.repository.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import com.laptrinhjavaweb.builder.CustomerSearchBuilder;
+import com.laptrinhjavaweb.entity.CustomerEntity;
+import com.laptrinhjavaweb.paging.Pageable;
+import com.laptrinhjavaweb.repository.ICustomerRepository;
+
+public class CustomerRepository extends SimpleJpaRepository<CustomerEntity> implements ICustomerRepository {
+
+	@Override
+	public List<CustomerEntity> findAll(Map<String, Object> params, Pageable pageable, CustomerSearchBuilder fieldSearch) {
+		StringBuilder sqlSearch = new StringBuilder("Select * FROM infocustomer A");
+		return null;
+	}
+
+}

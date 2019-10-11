@@ -1,0 +1,10 @@
+package com.laptrinhjavaweb.entity;
+
+import com.laptrinhjavaweb.annotation.Entity;
+import com.laptrinhjavaweb.annotation.Table;
+
+@Entity
+@Table(name = "customer")
+public class CustomerEntity {
+
+}

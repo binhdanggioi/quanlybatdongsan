@@ -1,0 +1,20 @@
+package com.laptrinhjavaweb.entity;
+
+import com.laptrinhjavaweb.annotation.Column;
+import com.laptrinhjavaweb.annotation.Entity;
+import com.laptrinhjavaweb.annotation.Table;
+
+@Entity
+@Table(name = "customer")
+public class CustomerEntity extends BaseEntity {
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "numberphone")
+	private Integer numberphone;
+	@Column(name = "email")
+	private String email;
+	
+	@Column(name = "staffid")
+	private String staffid;
+}

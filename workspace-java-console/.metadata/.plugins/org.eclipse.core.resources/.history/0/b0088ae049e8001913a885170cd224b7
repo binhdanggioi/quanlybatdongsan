@@ -1,0 +1,50 @@
+package com.laptrinhjavaweb.DTO;
+
+public class CustomerDTO extends AbstractDTO {
+	private Long id;
+	private String name;
+	private Integer phoneNumber;
+	private String email;
+	private String staffId;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getNumberPhone() {
+		return numberPhone;
+	}
+
+	public void setNumberPhone(Integer numberPhone) {
+		this.numberPhone = numberPhone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getStaffId() {
+		return staffId;
+	}
+
+	public void setStaffId(String staffId) {
+		this.staffId = staffId;
+	}
+
+}

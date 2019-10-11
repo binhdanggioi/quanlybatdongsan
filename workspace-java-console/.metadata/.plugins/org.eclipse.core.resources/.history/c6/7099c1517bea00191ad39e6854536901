@@ -1,0 +1,11 @@
+package com.laptrinhjavaweb.api;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(urlPatterns = { "/api-user" })
+public class UserAPI extends HttpServlet {
+
+	private static final long serialVersionUID = -8390576278789890806L;
+
+}

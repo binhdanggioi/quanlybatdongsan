@@ -1,0 +1,18 @@
+package com.laptrinhjavaweb.api;
+
+import java.util.List;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+import com.laptrinhjavaweb.DTO.UserDTO;
+import com.laptrinhjavaweb.paging.Pageable;
+import com.laptrinhjavaweb.service.IUserService;
+
+@WebServlet(urlPatterns = { "/api-user" })
+public class UserAPI extends HttpServlet {
+
+	private static final long serialVersionUID = -8390576278789890806L;
+	
+	
+}

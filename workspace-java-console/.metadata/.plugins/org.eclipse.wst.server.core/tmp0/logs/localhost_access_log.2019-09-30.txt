@@ -1,0 +1,5 @@
+127.0.0.1 - - [30/Sep/2019:17:23:20 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Sep/2019:17:23:21 +0700] "GET /java-console/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Sep/2019:17:23:21 +0700] "GET /java-console/trang-chu HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [30/Sep/2019:17:23:21 +0700] "GET /favicon.ico HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [30/Sep/2019:17:23:42 +0700] "GET /java-console/api-building?page=1&limit=2&name=&district= HTTP/1.1" 200 1037
